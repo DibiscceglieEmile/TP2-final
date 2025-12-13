@@ -4,4 +4,4 @@ La Ferrari F40 est l’une des supercars les plus emblématiques de l’histoire
 
 - Auteur : Émile Di Bisceglie
 - Cour : 1w1-Mise en page web
-- Github-page : https://dibiscceglieemile.github.io/Labo-10/
+- Github-page : https://dibiscceglieemile.github.io/TP2-final/
