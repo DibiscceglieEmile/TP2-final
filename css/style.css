@@ -161,7 +161,7 @@ body > div:nth-of-type(6){
 
   .hero {
     min-height : 100vh;
-    background-image: url("../images/Ferrari-F40-Accueil.jpg");
+    background-image: url("../images/ferrari-f40-accueil.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
