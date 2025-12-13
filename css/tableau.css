@@ -1,0 +1,51 @@
+.table-f40 {
+    display: table;                /* utiliser table pour garder la structure HTML normale */
+    margin: 30px auto;             /* centre horizontalement */
+    width: 90%;                     /* largeur relative à l’écran */
+    max-width: 1100px;             /* largeur maximale */
+    background-color: rgba(17, 17, 17, 0.7);
+    color: white;
+    border: 2px solid #d40000;
+    box-shadow: 0 0 15px rgba(212, 0, 0, 0.5);
+    border-collapse: collapse;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.85rem;
+}
+
+/* Permet au tableau de rester centré dans son container même si l’écran est petit */
+section {
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.table-f40 caption {
+    background: #d40000;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.table-f40 thead th {
+    background: #222;
+    color: #d40000;
+    padding: 8px;
+    border-bottom: 2px solid #d40000;
+    text-transform: uppercase;
+}
+
+.table-f40 tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+}
+
+.table-f40 tbody tr:nth-child(even) {
+    background: rgba(24, 24, 24, 0.7);
+}
+
+.table-f40 tbody tr:hover {
+    background: #d40000;
+    color: #fff;
+    transition: 0.2s;
+}

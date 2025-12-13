@@ -1,0 +1,55 @@
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galerie__figure{
+    flex: 1 1 298px;
+    height: 200px;
+}
+
+.galerie__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: blur(6px);
+    transition: 1s;
+    border: 4px solid #000000a9;
+}
+ 
+.img-enzo{
+    filter: hue-rotate(264deg);
+} 
+.img-458{
+    filter: hue-rotate(264deg);
+} 
+.img-f40{
+    filter: hue-rotate(264deg);
+} 
+.img-488{
+     filter: grayscale(0.8);
+} 
+.img-california{
+     filter: grayscale(0.8);
+} 
+.img-812{
+     filter: grayscale(0.8);
+} 
+.img-250gto{
+    filter: brightness(0.26);
+} 
+.img-f50{
+    filter: brightness(0.26);
+} 
+.img-296gtb{
+    filter: brightness(0.26);
+}
+
+.galerie__img:hover{
+    filter: none
+}
+
+.galerie__figcaption{
+    color: white;
+}

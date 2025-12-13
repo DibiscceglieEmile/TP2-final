@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3{
+    margin: 0;
+    text-align: center;
+    font-family: "Cinzel";
+}
+
+h2{
+    padding-top: 15px;
+    font-size: 25px;
+    font-family: "Nunito Sans";
+}
+
+h3{
+    padding-top: 10px;
+    text-align:left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    margin-bottom: 30px;
+    line-height: 25px;
+    margin-left: 12px;
+}
+
+h1.titrePage{
+    margin: 0;
+    padding: 20px;
+    font-family: "Cinzel";
+    font-size: 29px;
+    text-align: center;
+}
+
+.un{
+    height: 43vh;
+}
+
+.deux,.trois,.quatre {
+    height: 100vh;
+}
+
+.cinq{
+    height: 52vh;
+}
+
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+figure > img{
+    display: block;
+    object-fit: cover;
+}
+
+.centre{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.337);
+    padding: 30px;
+}
+
+.bas{
+    background-color: #370000;
+    height: 41vh;
+}
+
+.pied{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pied__Adresse{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+.pied__Cours{
+    margin-top: 18px
+}
+
+.pied__Cours ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pied__resume{
+    margin-top: 18px;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 400px;
+}
+
+.pied__lien{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 2px;
+}
+
+.pied__service{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 2px;
+    
+}
+
+.pied__sociaux{
+    margin: 0;
+    padding: 20px 170px;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.pied__confidentialité{
+    margin-left: 10px;
+    margin-top: 121px;
+}
+/* /////////////////////////////////////////// colloration des sections ////////////////////////// */
+
+body > div:nth-of-type(1){
+    background-color: #FF2E2E;
+    height: 100vh;
+}
+body > div:nth-of-type(2){
+    background-color: #FF0000;
+}
+body > div:nth-of-type(3){
+    background-color: #D10000;
+}
+body > div:nth-of-type(4){
+    background-color:  #A30000;
+}
+body > div:nth-of-type(5){
+    background-color: #750000;
+}
+body > div:nth-of-type(6){
+    background-color: #500101;
+}
+
+
+/* ////////////////////////////////////////////////   division .hero /////////////////////////////// */
+
+
+  .hero {
+    min-height : 100vh;
+    background-image: url("../images/Ferrari-F40-Accueil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .entete {
+    background-color: rgba(255, 255, 255, 0.832);
+    border: 2px solid#ffffff;
+    width: 400px;
+    height: 100vh;
+  }
+
+
